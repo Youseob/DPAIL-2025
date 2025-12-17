@@ -14,5 +14,5 @@ einops
 ```
 ### How to Use
 ```
-python train_imitation.py --buffer buffers/Ant-v3/size10000 --cuda --
+python train_imitation.py --buffer buffers/Ant-v3/size10000 --cuda --algo {gail,dpail,bc}
 ```
